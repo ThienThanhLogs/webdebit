@@ -45,3 +45,5 @@ Chạy thử mã mới trên dữ liệu `hao` (chỉ đọc, tháng 11/2026): h
 - CÒN MỞ: người dùng tự đi hết luồng trên `hao`.
 
 Spec: [`specs/v7-bao-cao-thang.md`](../../specs/v7-bao-cao-thang.md).
+
+**Đối chiếu 28/11/2026:** lên `hao` qua `Deploy hao` 19/11/2026 (#503).

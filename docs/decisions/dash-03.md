@@ -23,4 +23,6 @@ Giữ các điểm tương tác đã chốt ở [`DASH-01`](dash-01.md) ngày 29
 
 **Cập nhật 30/10/2026:** ĐÃ TRIỂN KHAI trên `hao` bằng đợt tay (release `5f04bc4`, [nhật ký](../deploys/2026-10-30-tong-quan-quan-ly-no.md)): migration áp trong cửa sổ dừng ghi, số dư 236/236 khách không đổi, checker OK. CÒN MỞ: người dùng tự đi hết luồng trên web thật.
 
+**Đối chiếu 28/11/2026:** cách đọc ngày ở mục 3 (ngày trả gần nhất là ngày tiền về, không đổi quy tắc) ĐÃ TRIỂN KHAI trên `hao` 6/11/2026 lúc 09:55 (#344, [nhật ký](../deploys/2026-11-06-ngay-tra-that.md)).
+
 **Cập nhật 6/11/2026:** mục 2 (mức rủi ro) và mục 4 (không so tháng trước) bị [`DASH-06`](dash-06.md) thay: chia khách theo bốn tình trạng, Tổng quan có hình 12 tháng. Chưa code; trang đang chạy vẫn theo mục 2 và 4 tới khi PR của DASH-06 lên `hao`.

@@ -38,6 +38,8 @@ Số đo làm căn cứ, tháng 9–11/2026, chỉ đọc (chi tiết ở spec):
 
 ĐÃ CHỐT tám điểm trên. ĐÃ VIẾT (chưa triển khai trên `hao`, chưa ai nghiệm thu): migration `2026-11-19-v7-doi-xe-dieu-do.sql` (schema `doixe`), harness `test_pg_doixe_dieu_do.py`. Chưa có API, phần phân công trong mục Chặng, mã nhà xe nào trong cơ sở dữ liệu; bộ đọc của web chưa đọc bốn cột mới của `CONT_NGUON`.
 
+**Đối chiếu 28/11/2026:** migration `2026-11-19-v7-doi-xe-dieu-do.sql` ĐÃ TRIỂN KHAI trên `hao` 19/11/2026 lúc 10:13 (#500), hai mã nhà xe nạp lúc 10:18 ([nhật ký](../deploys/2026-11-19-doi-xe-dieu-do.md)). API mục Chặng, đường đọc việc, bốn đường phân công và bộ đọc bốn cột mới của `CONT_NGUON` ở #507, `Deploy hao` xanh 19/11/2026; hàm đọc thu, chi, lãi gộp của chặng ĐÃ TRIỂN KHAI trên `hao` cùng ngày ([nhật ký](../deploys/2026-11-19-doi-xe-tai-chinh-chang.md)). Chưa thấy PR giao diện phân công trong mục Chặng trên `main`.
+
 Chưa chốt:
 
 - thứ tự các khối còn lại (giấy tờ, dầu và số đo, lãi lỗ, sửa chữa và định phí);

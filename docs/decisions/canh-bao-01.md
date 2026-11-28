@@ -42,6 +42,8 @@ Giới hạn:
 - Lỗi lẻ tự lành trong ngưỡng thì không báo, có chủ đích để không nhiễu.
 - Dịch vụ ngoài hỏng thì không có email. Tab Việc cần làm vẫn hiện trạng thái đối soát.
 
+**Đối chiếu 28/11/2026:** healthchecks.io đã có 8 check bật email; phần bổ sung 23/11/2026 ĐÃ TRIỂN KHAI trên `hao` (#607 và phần tay theo nhật ký); ĐÃ KIỂM CHỨNG 23/11/2026: `--test-fail` gửi 5 email DOWN rồi 5 email UP ([nhật ký](../deploys/2026-11-23-van-hanh-canh-bao.md)).
+
 ## Bổ sung 18/11/2026: nguồn booking và hộp việc
 
 Người dùng bấm "Vá cảnh báo" sau buổi diễn tập sang tháng 12 trên bản sao; Claude đặt chi tiết. Không đổi kênh, không đổi DB, quyền hay tiền.

@@ -25,3 +25,5 @@ Backend: `get_dashboard_debt` trả thêm `this_month.customers` (hàm đọc, m
 ## Hiệu lực và giới hạn
 
 ĐÃ CHỐT. Trạng thái triển khai ghi theo lượt `Deploy hao` (frontend) và nhật ký `docs/deploys/` (migration). Frontend và migration độc lập: release mới trên DB cũ thì thẻ Thu tháng ghi "cả công ty" khi lọc. PR frontend của [`DASH-06`](dash-06.md) giữ quy tắc lọc chéo cho hàng ô tình trạng và thẻ 12 tháng. CÒN MỞ: người dùng tự đi hết luồng trên `hao`.
+
+**Đối chiếu 28/11/2026:** ĐÃ TRIỂN KHAI trên `hao` 9/11/2026 lúc 13:13: migration (#361) và trang (#360) ([nhật ký](../deploys/2026-11-09-thu-thang-theo-so.md)).

@@ -54,6 +54,8 @@ Số đo (chỉ số đếm; danh sách có tên khách giữ ngoài Git):
 
 ĐÃ CHỐT nguyên tắc (1)–(5) và danh sách nguồn. Cách làm theo giai đoạn ở [spec](../../specs/v7-chuyen-theo-nguon.md). GĐ1 (công cụ đối soát) đã có; GĐ2 phần `CONT_BO` và GĐ3 phần chuyến bộ mới đã code (xem dưới); các phần khác chưa triển khai.
 
+**Đối chiếu 28/11/2026:** đồng bộ chuyến biển đọc tab `CONT_NGUON` từ 30/10/2026 ([nhật ký](../deploys/2026-10-30-cont-nguon.md)); chuyến bộ từ `CONT_BO` tự vào sổ (#290) lên `hao` qua `Deploy hao` 3/11/2026, luật chủ hàng (#434) ngày 16/11/2026 ([`CHUYEN-BO-CHU-HANG-01`](chuyen-bo-chu-hang-01.md)).
+
 Không đổi luật tiền, phân bổ, khóa tháng hay quyền. Mọi thay đổi trên sổ đi qua lệnh có sẵn và ghi Lịch sử.
 
 **Chuyến bộ mới tự vào sổ (ĐÃ CHỐT 3/11/2026, chat).** Đối soát 3/11 cho thấy chuyến bộ thêm vào tab khách sau mốc không lên web, vì hàng chờ chỉ đọc `CONT_NGUON`. Claude hỏi "Làm luôn GĐ2–GĐ3 (đọc CONT_BO, máy đưa chuyến bộ vào sổ)?", người dùng chọn làm. Claude hỏi tiếp luật chọn sổ, kèm số đo trên 206 chuyến `CONT_BO` từ 1/10: 41 chuyến nằm trong đúng một tab khách, 165 chưa ở tab nào, và CHỦ HÀNG khác tên sổ ở 4/41. Người dùng chọn **"Theo tab khách trên Sheet"**:

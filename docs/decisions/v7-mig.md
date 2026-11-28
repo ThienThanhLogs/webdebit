@@ -13,3 +13,5 @@ Người dùng chốt chuyển dữ liệu: migrate và làm sạch từ Sheet �
 ## Hiệu lực và giới hạn
 
 ĐÃ CHỐT hướng. Thiết kế backend (lược đồ mới `sokhach`, dòng lịch sử tách khỏi chuyến/thu, không maker/checker) là ĐỀ XUẤT; chưa chạy migration, chưa đụng `hao`/Sheet từ thiết kế này. CÒN MỞ: cách V7 dùng opening đã nạp theo [`OPENING-SO-GOC`](opening-so-goc.md); chứng cứ đủ dòng nguồn (manifest); một khách nhiều tab; hình thức thu từ ghi chú; giờ đóng băng; quy trình chuyển lại ở mốc thứ hai.
+
+**Đối chiếu 28/11/2026:** lược đồ `sokhach` ĐÃ TRIỂN KHAI trên `hao`: DB `webdebit_v7` nạp mốc 21/10/2026 ([`SONG-SONG-02`](song-song-02.md)); các đợt nâng sau ở [runbook](../v7-deploy-runbook.md) và [`docs/deploys/`](../deploys/README.md).

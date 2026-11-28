@@ -20,4 +20,6 @@ Người dùng phản ánh "Phụ phí PS cần xem" không hiểu là gì và k
 
 ĐÃ CHỐT theo yêu cầu người dùng. Migration [`2026-11-09-v7-ps-khong-thu.sql`](../../cong-no-web-handoff/tools/migrations/2026-11-09-v7-ps-khong-thu.sql) chỉ cho `keep_sheet_task` nhận thêm `task_kind = 'ps'`. Máy không tự trả lời thay người.
 
+**Đối chiếu 28/11/2026:** ĐÃ TRIỂN KHAI trên `hao` 9/11/2026 lúc 14:41 (#368, [nhật ký](../deploys/2026-11-09-ps-hoi.md)).
+
 <!-- du-lieu-gia: 1.500.000 -->
