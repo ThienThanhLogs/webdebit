@@ -18,3 +18,5 @@ Người dùng yêu cầu: chuyến mới từ Sheet **duyệt ngay ở hàng c�
 ## Hiệu lực và giới hạn
 
 ĐÃ CHỐT theo yêu cầu người dùng. Không đổi luật tiền, không đổi đường ghi (`paste_sheet_rows`). Không còn nút duyệt cả lô trên sổ; máy vẫn tự duyệt chuyến chắc chắn. "Phụ phí PS cần xem" là việc riêng (PR sau).
+
+**Đối chiếu 28/11/2026:** ĐÃ TRIỂN KHAI trên `hao` 9/11/2026 qua `Deploy hao` (#367, release `442494b`), theo [nhật ký](../deploys/2026-11-09-ps-hoi.md). "Phụ phí PS cần xem" thành [`PS-HOI-01`](ps-hoi-01.md), lên `hao` cùng ngày.

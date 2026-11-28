@@ -41,6 +41,8 @@ Số đo làm căn cứ (bản thử tháng 10/2026 trên `hao`, chỉ đọc; c
 
 ĐÃ CHỐT cấu trúc năm mục, danh sách màn bị thay và hướng đổi mô hình (điểm 1–5). Chưa code.
 
+**Đối chiếu 28/11/2026:** đã có mã các gói F1 (#499: module dùng chung, đổi mục giữ tháng; `Deploy hao` xanh 19/11/2026), T1 (#501: bản bấm thử dữ liệu giả), B1 (#500: ĐÃ TRIỂN KHAI trên `hao` 19/11/2026, [nhật ký](../deploys/2026-11-19-doi-xe-dieu-do.md)) và B2 (#507: API mục Chặng, `Deploy hao` xanh 19/11/2026; #509: hàm đọc thu, chi, lãi gộp, ĐÃ TRIỂN KHAI trên `hao` 19/11/2026, [nhật ký](../deploys/2026-11-19-doi-xe-tai-chinh-chang.md)). Chưa thấy PR giao diện mục Chặng (gói F2) trên `main`.
+
 Chưa chốt:
 
 - luật tiền chi tiết của mô hình mới (người trả theo khoản, khoản thu dòng riêng, công nợ chung, chi theo xe): ĐỀ XUẤT sẽ viết ở spec riêng, người dùng chốt trước khi code;

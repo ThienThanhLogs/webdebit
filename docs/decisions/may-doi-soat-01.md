@@ -45,6 +45,8 @@ Vế 5 (ẩn sổ đã khớp) do Claude đề xuất trong cùng hướng, khô
 
 ĐÃ CHỐT. Chi tiết ở [spec](../../specs/v7-may-doi-soat.md), cách cài ở [runbook](../v7-deploy-runbook.md#máy-tự-đối-soát-may-doi-soat-01--timer-v7-reconcile-auto). Không đổi DB, quyền, luật phân bổ. Không ghi Sheet.
 
+**Đối chiếu 28/11/2026:** ĐÃ TRIỂN KHAI trên `hao` 4/11/2026 lúc 10:21–10:34: unit `v7-reconcile-auto` có `--fix`, timer phút :05 từ 7 tới 22 giờ VN (#292, #293, #294, [nhật ký](../deploys/2026-11-04-may-doi-soat.md)).
+
 Lưới an toàn là đúng tổng từng khách: hai lỗi bù trừ nhau trong cùng khách thì không lộ, như đối soát chính thức. Máy chỉ bắt được kiểu đổi chỗ khi web đã có giá để so; Sheet xếp lệch cột ở chuyến web chưa có giá thì máy ghi theo Sheet, vì Sheet là sổ chính thức. So từng tháng theo [`CAN-DU-01`](can-du-01.md) chạy kèm ở mỗi lượt để báo khách lệch tháng.
 
 Phép so chỉ thấy khách đã có trong phép so: tab mới mà chưa vào thì tổng Sheet lẫn tổng web đều chưa tính, hai bên vẫn khớp. Từ 4/11/2026 tab mới đủ điều kiện được máy tạo sổ ([`MAY-TAO-SO-01`](may-tao-so-01.md)); tab chưa đủ điều kiện, còn nợ, có phát sinh từ tháng 10/2026 thì mỗi lượt báo kèm lý do.

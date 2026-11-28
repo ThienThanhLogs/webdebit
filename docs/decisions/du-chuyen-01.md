@@ -74,3 +74,4 @@ Giới hạn:
 - Số đo trên dùng chuyến từ tháng nợ 06/2025. Lượt thật đọc mọi tháng, nên tháng đầu của vài sổ có thể sớm hơn và số "trước tháng đầu của sổ" có thể khác chút ít.
 - PR thứ hai chỉ đổi code app, không migration, không ghi Sheet, không đổi luật tiền: chuyến máy thêm chưa có giá, giá vẫn theo `MAY-GIA-01`.
 - CÒN MỞ: chủ sổ kết luận 47 chuyến tháng cũ, 50 dòng nghi tính hai lần và 29 dòng không có booking; người dùng tự đi khối trên `hao`.
+- **Đối chiếu 28/11/2026:** 47 chuyến tháng cũ đã kiểm trên `hao` 25/11/2026; đã sửa nhóm 1 (dòng giữ nguyên tháng nợ) và nhóm 2 (tạo sổ 248). Nhóm 3–5 và phần còn lại của nhóm 1 vẫn chờ người giữ file booking và chủ sổ ([nhật ký](../deploys/2026-11-25-kiem-thang-cu.md)).

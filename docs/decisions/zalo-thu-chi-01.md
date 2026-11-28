@@ -49,6 +49,8 @@ Trang Thu chi (PR-2, FinanceBullkk/webdebit#551, #552) giữ nguyên, chỉ đ�
 
 Bảng xác nhận (PR-3) nằm ngoài đường tiền, triển khai theo [`DEPLOY-CLAUDE-01`](deploy-claude-01.md).
 
+**Đối chiếu 28/11/2026:** trang Thu chi (`/thu-chi.html`) đã code và lên `hao` qua `Deploy hao`: PR-2a #551, PR-2b #552 (xanh 20/11/2026), PR-2c #555, số đọc từ ảnh PR-4b #562 (xanh 20/11/2026), nút xác nhận PR-3b #570 (xanh 21/11/2026). Bảng xác nhận PR-3 (#565) ĐÃ TRIỂN KHAI trên `hao` 21/11/2026 ([nhật ký](../deploys/2026-11-21-cash-report-review.md)). PR-1 (tiến trình nền thay task 15 phút) chạy từ 20/11/2026 theo [`ZALO-AGENT-01`](zalo-agent-01.md) ([nhật ký](../deploys/2026-11-20-zalo-agent.md)).
+
 CÒN MỞ:
 
 - engine OCR;

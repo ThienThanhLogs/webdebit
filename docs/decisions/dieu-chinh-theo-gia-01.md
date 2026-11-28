@@ -24,3 +24,4 @@ Trước đây chuyến không giá ra khỏi số dư (`V7-BE` (1): chuyến ch
 - View `sokhach.v_adjustment_current`, migration `2026-11-23-v7-dieu-chinh-theo-gia.sql`; `schema_level()` = `2026112302`.
 - Đo chỉ đọc trên `hao` 23/11/2026: không có điều chỉnh chuyến nào đang tính, nên số dư mọi sổ không đổi lúc nâng.
 - Test: `AUDIT-SQL.01` (xóa giá → số dư bỏ cả chuyến và điều chỉnh; nhập lại → tính lại), mô hình bất biến tiền (`test_pg_v7_bat_bien.py`).
+- **Đối chiếu 28/11/2026:** ĐÃ TRIỂN KHAI trên `hao` 23/11/2026 lúc 22:20 giờ VN (#624, đợt 2 trong [nhật ký audit SQL](../deploys/2026-11-23-audit-sql.md#đợt-2-dieu-chinh-theo-gia-01-624-1520-utc)); `schema_level()` = `2026112302`, số dư mọi sổ không đổi.

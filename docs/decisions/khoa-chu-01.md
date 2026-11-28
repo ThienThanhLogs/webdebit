@@ -23,3 +23,5 @@ Vẫn khóa như cũ ở tháng khóa:
 ## Hiệu lực và giới hạn
 
 ĐÃ CHỐT. Triển khai bằng migration `2026-11-01-v7-khoa-chu.sql` (chỉ thay thân `edit_trip_info`, `_change_legacy`, `resolve_sheet_conflict`), kèm giao diện sổ mở bốn ô chữ ở tháng khóa. Trạng thái triển khai ghi ở nhật ký `docs/deploys/`. Không đổi số dư, phân bổ hay quyền.
+
+**Đối chiếu 28/11/2026:** ĐÃ TRIỂN KHAI trên `hao` 1/11/2026 lúc 19:13 (#252); máy lấy chữ theo Sheet (`WEBDEBIT_AUTO_SHEET=text`) bật lúc 19:22 ([nhật ký](../deploys/2026-11-01-khoa-chu.md)).

@@ -19,3 +19,5 @@ Web có trang **Nhật ký công việc** (chỉ xem) cho người làm và qu�
 ## Hiệu lực và giới hạn
 
 ĐÃ CHỐT. Code theo PR; triển khai tự động khi merge qua `Deploy hao`, riêng thư mục và drop-in quyền ghi làm tay một lần (nhật ký trong `docs/deploys/`). Chia mảng theo từ khóa trong tên PR nên có thể lệch vài PR. Danh sách "Việc lớn" và "Đang làm tiếp" lấy từ bản khởi đầu, chưa tự đổi. GitHub không token cho 60 lượt/giờ: ngày rất nhiều PR có thể chậm vài nhịp mới đủ.
+
+**Đối chiếu 28/11/2026:** thư mục và drop-in quyền ghi làm tay trên `hao` 20/11/2026 ([nhật ký](../deploys/2026-11-20-nhat-ky.md)); trang (#541, #560, #561) lên `hao` qua `Deploy hao` 20/11/2026.

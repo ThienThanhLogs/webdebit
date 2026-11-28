@@ -31,6 +31,8 @@ Mô hình, bảng đối chiếu hiện có → đề xuất, thứ tự migrati
 
 ĐÃ CHỐT tám điểm trên. Chưa code, chưa migration, chưa chạy gì trên `hao`.
 
+**Đối chiếu 28/11/2026:** hai hàm đọc thu, chi, lãi gộp của chặng theo mô hình này (`doixe._tai_chinh_chang`, `doixe.get_chang_tai_chinh`; chỉ đọc, không đổi bảng) ĐÃ TRIỂN KHAI trên `hao` 19/11/2026 lúc 13:14 (#509, [nhật ký](../deploys/2026-11-19-doi-xe-tai-chinh-chang.md)).
+
 Phải làm trước khi chạy migration ghi:
 
 - đo trên bản thử số khoản ghi chú mà bộ đọc gắn lỗi (câu 6 chỉ định cách xử lý);
