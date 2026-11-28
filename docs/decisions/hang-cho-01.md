@@ -34,6 +34,8 @@ Người dùng chốt ba câu Q1–Q3 của [UX bước 02](../ux-luong-du-lieu.
 
 ĐÃ CHỐT, chưa triển khai. Thiết kế luồng ở [UX bước 03](../ux-buoc-03-luong-thao-tac.md). Không đổi luật tiền, phân bổ, khóa tháng hay quyền ghi. Mọi việc máy làm đi qua đúng các lệnh ghi đang có và ghi Lịch sử như người làm.
 
+**Đối chiếu 28/11/2026:** Q1 ĐÃ TRIỂN KHAI trên `hao`: máy lấy chữ theo Sheet bật 1/11/2026 lúc 19:22 ([nhật ký](../deploys/2026-11-01-khoa-chu.md)). Q2, Q3, Q5 chưa đối chiếu được với nhật ký triển khai riêng.
+
 Hết hiệu lực vế Q1 khi chuyển hẳn khỏi Sheet, vì lúc đó web là sổ chính, không còn "theo Sheet".
 
 Điều kiện (c) đã bỏ theo Q5 (A). Số nợ chỉ đổi khi chuyến có giá có nguồn.

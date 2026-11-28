@@ -57,3 +57,5 @@ Chốt mục tiêu, phạm vi, nhập trên web, việc làm trước, công th�
 Phiếu chi xe mới của nhà xe (từ 11/2026): 18/11/2026 người dùng chốt làm phần chắc chắn: loại phí Hạ sớm/KH (tài xế chi), ba ô số lượng của chặng (km, ngày neo, giờ máy phát; không phải tiền), dán ô Nổ máy ghi giờ thành số giờ. Dòng Hoá đơn, đổi cột Sheet, cont cắt + cont kéo CÒN MỞ: xem [spec](../../specs/chi-phi-xe-01.md#phiếu-chi-xe-mới-từ-112026).
 
 Triển khai: schema `doixe` ĐÃ TRIỂN KHAI trên `hao` 18/11/2026 lúc 12:17 ([nhật ký](../deploys/2026-11-18-doi-xe.md)), bảng rỗng, chưa nạp danh mục. API `/api/v7/doixe/*` triển khai tự động khi merge qua `Deploy hao`.
+
+**Đối chiếu 28/11/2026:** API `/api/v7/doixe/*` (#478) `Deploy hao` xanh 18/11/2026. Phiếu chi xe mới (loại Hạ sớm/KH, ba ô số lượng của chặng) ĐÃ TRIỂN KHAI trên `hao` 18/11/2026 lúc 17:07, migration `2026-11-18-v7-doi-xe-phieu-chi.sql` (#486, [nhật ký](../deploys/2026-11-18-doi-xe-phieu-chi.md)).

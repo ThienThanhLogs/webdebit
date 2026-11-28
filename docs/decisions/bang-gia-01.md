@@ -23,3 +23,5 @@ Người dùng/chủ nghiệp vụ chốt bảng giá theo ngày hiệu lực tr
 **Cập nhật 29/10/2026 (giao diện):** khung Bảng giá đầu tiên bị người dùng báo "không dùng được, không ai hiểu"; thay bằng giao diện lưới giống vùng bảng giá trên Sheet sau khi người dùng thử mockup v2 và chốt "Ổn, làm thật" (xem spec, giai đoạn 2). Không đổi quy tắc giá hay API.
 
 **Cập nhật 29/10/2026 (rà đường ghi tiền):** server chặn bảng giá ghi đè đơn giá gõ tay (`PRICE_TYPED_PRICE`): `apply_price_table` chỉ ghi chuyến chưa có đơn giá hoặc đang mang đơn giá do bảng ghi (áp lại); trước đó chỉ giao diện lọc. Migration `2026-10-29-v7-ra-ghi-tien.sql`.
+
+**Đối chiếu 28/11/2026:** giao diện Bảng giá chạy trên `hao`; bản lưới ma trận hiện nay lên 13/11/2026 (#407), bước xem lại trước khi lưu ĐÃ TRIỂN KHAI cùng ngày (#408, [nhật ký](../deploys/2026-11-13-xem-truoc-bang-gia.md)), theo [`BANG-GIA-05`](bang-gia-05.md).

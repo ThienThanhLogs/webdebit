@@ -17,3 +17,5 @@ Trang tổng quan công nợ V7 là **trang đầu khi vào web**, chỉ đọc,
 Cập nhật 29/10/2026 (cùng ngày, sau v5.3): nội dung khối thay bởi [`DASH-03`](dash-03.md) — Tổng quan chỉ còn bốn khối về công nợ, Việc cần làm và Hôm nay sang tab riêng; tương tác dưới đây giữ nguyên.
 
 Cập nhật 29/10/2026 (người dùng chốt trong chat, mockup v5.3, PR FinanceBullkk/webdebit#134): Tổng quan có tương tác — bấm nhóm tuổi nợ / mặt hàng lọc danh sách khách tại chỗ, bấm khách mở ngăn kéo; Việc cần làm thêm nhóm "Cần gán mặt hàng / cảng-bộ". Chi tiết ở spec, mục Bằng chứng.
+
+**Đối chiếu 28/11/2026:** Tổng quan ĐÃ TRIỂN KHAI trên `hao` 30/10/2026 với nội dung [`DASH-03`](dash-03.md) (#186, [nhật ký](../deploys/2026-10-30-tong-quan-quan-ly-no.md)); hàm gán cảng/bộ cho nhóm "Cần gán mặt hàng / cảng-bộ" ĐÃ TRIỂN KHAI trên `hao` 4/11/2026 (#302, [nhật ký](../deploys/2026-11-04-gan-cang-bo.md)).

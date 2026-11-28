@@ -13,3 +13,5 @@ Người dùng chốt mặt hàng gắn theo sổ khách: một sổ (một dòn
 ## Hiệu lực và giới hạn
 
 ĐÃ CHỐT. Thiết kế (`customer.commodity_id`, `transport_mode`, cờ `archived`, lệnh gán/đổi) là ĐỀ XUẤT trên nhánh `codex/v7-opening-read`, chưa có thân hàm/harness. **Chốt 21/10/2026:** không chặn nhập chuyến/thu vào sổ khách archived, chỉ cảnh báo khi người dùng thao tác trên sổ đó (đề phòng archive nhầm). CÒN MỞ: mặt hàng thật của các khách đang `CHUA PHAN LOAI`.
+
+**Đối chiếu 28/11/2026:** mặt hàng của sổ ĐÃ TRIỂN KHAI trên `hao` theo [`MH-01`](mh-01.md): migration `2026-10-23-v7-mat-hang.sql` 23/10/2026, gán 223/236 sổ 28/10/2026. Lệnh gán cảng/bộ `set_customer_transport` ĐÃ TRIỂN KHAI trên `hao` 4/11/2026 (#302, [nhật ký](../deploys/2026-11-04-gan-cang-bo.md)).

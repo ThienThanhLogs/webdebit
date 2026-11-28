@@ -17,3 +17,5 @@
 **Cập nhật 5/11/2026:** vế "khóa Sheet ở chế độ chỉ xem" chưa áp dụng, xét lại sau đối soát cuối tháng 11 ([`CHUYEN-HAN-01`](chuyen-han-01.md)).
 
 **Cập nhật 25/11/2026:** vế (1) hết hiệu lực. Web là sổ chính thức; lệch thì web là chuẩn, chỉ sửa web khi có bằng chứng từ nguồn gốc ([`WEB-CHINH-01`](web-chinh-01.md)).
+
+**Đối chiếu 28/11/2026:** câu "Chưa bắt đầu chạy song song" ở trên là trạng thái 21/10/2026. Sau đó: mốc nạp trên `hao` 21/10/2026 và tháng song song đầu là 11/2026 ([`SONG-SONG-02`](song-song-02.md)); backup V7 hằng ngày từ 29/10/2026 ([nhật ký](../deploys/2026-10-29-v7-backup-daily.md)); máy đối soát Sheet–web theo khách mỗi giờ từ 4/11/2026 ([nhật ký](../deploys/2026-11-04-may-doi-soat.md)).

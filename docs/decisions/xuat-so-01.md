@@ -32,3 +32,5 @@ mục riêng ổ D".
 ĐÃ CHỐT dạng, quyền tải, bố cục, nơi giữ. Không đổi luật tiền, DB hay quyền ghi. Chưa có nhắc tải định kỳ: máy chủ không biết
 người dùng đã cất file chưa. Khi cả `hao` hỏng thì bản tải gần nhất trên PC và bản sao lưu mã hóa hằng đêm (diễn tập phục hồi
 là mục E1, CHƯA làm) là hai đường còn lại.
+
+**Đối chiếu 28/11/2026:** nút Tải cả sổ ở Tổng quan (#473) lên `hao` qua `Deploy hao` 18/11/2026. E1 đã diễn tập 25/11/2026 trên Docker ở PC, không đụng `hao`: lõi dựng lại 13 phút; cài máy thật, Tailscale, DNS chưa thử ([nhật ký](../deploys/2026-11-25-dien-tap-dung-lai-hao.md)).

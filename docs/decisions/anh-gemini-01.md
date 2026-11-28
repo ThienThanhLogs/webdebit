@@ -54,6 +54,8 @@ Người dùng hỏi máy có yếu quá để OCR tại chỗ không. Claude b�
 
 ĐÃ CHỐT 20/11/2026 (bản sửa cùng ngày). Chưa code, chưa triển khai. Làm ở PR-4 của [spec Thu chi](../../specs/zalo-thu-chi-real-time.md#chia-pr-và-cổng).
 
+**Đối chiếu 28/11/2026:** ĐÃ CODE trong agent Zalo: PR-4a-1 (#557, OCR nền, kho kết quả) và PR-4a-2 (#558, che ảnh, Gemini hai đường, kết luận), theo [`ZALO-AGENT-01`](zalo-agent-01.md). Đường gửi Gemini mặc định tắt (`ZALO_AGENT_EXTERNAL=off`, [spec](../../specs/zalo-agent.md)); chưa có nhật ký triển khai nào ghi đã bật.
+
 CÒN MỞ:
 
 - ngưỡng "độ tin cậy thấp" của OCR, chốt bằng dữ liệu khi code PR-4;

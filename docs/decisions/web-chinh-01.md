@@ -64,6 +64,8 @@ Sửa 25/11/2026 theo phiên kiểm toàn bộ website, Claude đã đối chi�
 
 Mã và runbook cho các bước trên: ThienThanhLogs/webdebit#663 (chỉ thêm, không đè), ThienThanhLogs/webdebit#665 (`--booking-only`, dự phòng bản chụp giá, công tắc máy canh, runbook 7 bước trong [runbook triển khai](../v7-deploy-runbook.md)). Tên chủ hàng → sổ chuyến bộ đã ghi trên `hao` 25/11, nhật ký `docs/deploys/2026-11-25-ten-chu-hang.md`.
 
+**Đối chiếu 28/11/2026:** lịch giữ tháng 11 mở (mục 5) ĐÃ ĐẶT trên `hao` 25/11/2026 (#670); chưa ghi DB, lần ghi đầu là lượt 23:30 ngày 30/11 ([nhật ký](../deploys/2026-11-25-giu-mo-thang-11.md)). Diễn tập dựng lại `hao` trên máy trống (E1) làm 25/11/2026 trên Docker ở PC, không đụng `hao`: lõi dựng lại 13 phút; cài máy thật, Tailscale, DNS chưa thử ([nhật ký](../deploys/2026-11-25-dien-tap-dung-lai-hao.md)).
+
 CÒN MỞ:
 
 - Ngày khóa Sheet chỉ xem (đề xuất: cùng 1/12/2026, để không ai lỡ tay gõ vào đó).

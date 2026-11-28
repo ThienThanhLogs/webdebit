@@ -13,3 +13,5 @@ Người dùng/chủ nghiệp vụ chốt phụ phí nhiều loại theo hướn
 ## Hiệu lực và giới hạn
 
 ĐÃ CHỐT chính sách. Chưa có Penpot, chưa code, chưa đổi schema; thiết kế backend và đường nhập từ bảng PS trong spec là ĐỀ XUẤT. **Cập nhật 29/10/2026:** backend PR-A/PR-B/P2 đã triển khai trên `hao` (xem spec backend và runbook). Giao diện: người dùng duyệt mockup HTML [`phu-phi-nhieu-loai`](../../cong-no-web-handoff/preview/mockups/phu-phi-nhieu-loai/index.html) (dữ liệu giả) trong chat ("Duyệt, code luôn"); ĐÃ CODE trang live, kiểm bằng `npm run check`. Đường nhập từ bảng PS và cờ cần nhập Health/KĐ vẫn là ĐỀ XUẤT. **Cập nhật 4/11/2026:** [`MAY-PS-01`](may-ps-01.md) thêm loại gộp "Health + KĐ" cho ô PS gộp và cho máy tự phân loại; (10) vẫn giữ cho trường hợp có giá riêng. **Cập nhật 13/11/2026:** [`COT-PHU-PHI-01`](cot-phu-phi-01.md) bỏ giới hạn 3 cột riêng và thay (6): mọi sổ mặc định có bảy cột theo debit note.
+
+**Đối chiếu 28/11/2026:** giao diện phụ phí nhiều loại (#145) lên `hao` qua `Deploy hao` 29/10/2026; bảy cột mặc định ĐÃ TRIỂN KHAI trên `hao` 13/11/2026 ([nhật ký](../deploys/2026-11-13-cot-phu-phi-mac-dinh.md)).

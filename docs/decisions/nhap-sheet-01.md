@@ -15,3 +15,5 @@ Người dùng/chủ nghiệp vụ chốt cách nhập và sửa chuyến trên 
 ## Hiệu lực và giới hạn
 
 ĐÃ CHỐT hướng; có bản xem HTML dữ liệu giả. **Chưa triển khai**: trang live vẫn dùng ô dán 7 cột; backend chưa có lệnh sửa trường chữ/ngày, xóa chuyến, sửa dòng sổ gốc. Vế (6) trả lời CÒN MỞ (b) của [`MOC-CHUYEN-MOI`](moc-chuyen-moi.md) và vế "cách ghi kỹ thuật giá điền sau mốc" của [`SONG-SONG-01`](song-song-01.md) ở mức chính sách; cách ghi kỹ thuật (bảng/sự kiện điều chỉnh gắn dòng sổ gốc, phân bổ lại phiếu) CÒN MỞ tới khi có spec backend. Không đổi luật tiền khác của V6, `V7-SO`, `V7-BE`.
+
+**Đối chiếu 28/11/2026:** lệnh sửa/xóa chuyến và sửa dòng sổ gốc (migration `2026-10-22-v7-nhap-sheet.sql`) ĐÃ TRIỂN KHAI trên `hao` 22/10/2026 ([runbook](../v7-deploy-runbook.md#migration-nhap-sheet-01--sửaxóa-chuyến-22102026)); giao diện sửa/xóa tại ô (PR #71, release `a72712b`) lên `hao` cùng ngày ([runbook](../v7-deploy-runbook.md#giao-diện-sửaxóa-tại-ô--chỉ-đổi-release-app-đã-chạy-trên-hao-22102026)). Vế (1) bảng nhập thay bởi [`NHAP-SHEET-02`](nhap-sheet-02.md).
